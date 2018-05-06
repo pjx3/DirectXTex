@@ -31,9 +31,11 @@ namespace
 		size_t size,
 		_In_ const Image* image)
 	{
-		assert(pSource && size > 0);
-
-		if (!image || !image->pixels) {
+		if (!pSource || 
+			!size ||
+			!image || 
+			!image->pixels) 
+		{
 			return E_POINTER;
 		}
 

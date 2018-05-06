@@ -6,6 +6,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DirectXTex", "DirectXTex\Di
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "texconv", "Texconv\Texconv_Desktop_2017.vcxproj", "{C3A65381-8FD3-4F69-B29E-654B4B0ED136}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "texassemble", "Texassemble\Texassemble_Desktop_2017.vcxproj", "{8F18CBD7-4116-4956-BCD8-20D688A4CBD1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -40,6 +42,18 @@ Global
 		{C3A65381-8FD3-4F69-B29E-654B4B0ED136}.Release|Win32.Build.0 = Release|Win32
 		{C3A65381-8FD3-4F69-B29E-654B4B0ED136}.Release|x64.ActiveCfg = Release|x64
 		{C3A65381-8FD3-4F69-B29E-654B4B0ED136}.Release|x64.Build.0 = Release|x64
+		{8F18CBD7-4116-4956-BCD8-20D688A4CBD1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8F18CBD7-4116-4956-BCD8-20D688A4CBD1}.Debug|Win32.Build.0 = Debug|Win32
+		{8F18CBD7-4116-4956-BCD8-20D688A4CBD1}.Debug|x64.ActiveCfg = Debug|x64
+		{8F18CBD7-4116-4956-BCD8-20D688A4CBD1}.Debug|x64.Build.0 = Debug|x64
+		{8F18CBD7-4116-4956-BCD8-20D688A4CBD1}.Profile|Win32.ActiveCfg = Profile|Win32
+		{8F18CBD7-4116-4956-BCD8-20D688A4CBD1}.Profile|Win32.Build.0 = Profile|Win32
+		{8F18CBD7-4116-4956-BCD8-20D688A4CBD1}.Profile|x64.ActiveCfg = Profile|x64
+		{8F18CBD7-4116-4956-BCD8-20D688A4CBD1}.Profile|x64.Build.0 = Profile|x64
+		{8F18CBD7-4116-4956-BCD8-20D688A4CBD1}.Release|Win32.ActiveCfg = Release|Win32
+		{8F18CBD7-4116-4956-BCD8-20D688A4CBD1}.Release|Win32.Build.0 = Release|Win32
+		{8F18CBD7-4116-4956-BCD8-20D688A4CBD1}.Release|x64.ActiveCfg = Release|x64
+		{8F18CBD7-4116-4956-BCD8-20D688A4CBD1}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
