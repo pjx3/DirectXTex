@@ -414,6 +414,7 @@
     <ClCompile Include="DirectXTexMisc.cpp" />
     <ClCompile Include="DirectXTexNormalMaps.cpp" />
     <ClCompile Include="DirectXTexPMAlpha.cpp" />
+    <ClCompile Include="DirectXTexRAW.cpp" />
     <ClCompile Include="DirectXTexResize.cpp" />
     <ClCompile Include="DirectXTexTGA.cpp" />
     <ClCompile Include="DirectXTexUtil.cpp">

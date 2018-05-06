@@ -1757,6 +1757,30 @@ int __cdecl wmain(_In_ int argc, _In_z_count_(argc) wchar_t* argv[])
             }
         }
 #endif
+		else if (_wcsicmp(ext, L".raw") == 0)
+		{
+			std::unique_ptr<uint8_t[]> rawData;
+			size_t rawSize;
+			hr = ReadData(pConv->szSrc, rawData, rawSize);
+			if (SUCCEEDED(hr))
+			{
+				info.width = width;
+				info.height = height;
+				info.depth = 1;
+				info.arraySize = 1;
+				info.mipLevels = mipLevels;
+				info.miscFlags = 0;
+				info.miscFlags2 = 0;
+				info.format = format;
+				info.dimension = TEX_DIMENSION_TEXTURE2D;
+				hr = LoadFromRAWMemory(rawData.get(), rawSize, &info, *image);
+			}
+			if (FAILED(hr))
+			{
+				wprintf(L" FAILED (%x)\n", hr);
+				continue;
+			}
+		}
         else
         {
             // WIC shares the same filter values for mode and dither
